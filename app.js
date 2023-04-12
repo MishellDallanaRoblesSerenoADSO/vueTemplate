@@ -1,13 +1,14 @@
 import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js'
+import navar from './components/navar.js';
+import home from './components/home.js';
 import main from './main.js';
-import myColLeft from './components/myColLeft.js';
-import myColRight from './components/myColRight.js';
-import myImg from "./components/myImg.js";
+import headphones from './components/headphones.js';
+
 
 
 let app = createApp(main);
-app.component(myColLeft.name, myColLeft);
-app.component(myColRight.name, myColRight);
-app.component(myImg.name, myImg);
+app.component(navar.name, navar);
+app.component(home.name, home);
+app.component(headphones.name, headphones);
 
 app.mount("#app");

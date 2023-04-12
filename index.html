@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="sp">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Headphones Website</title>
     <script src="app.js" type="module" defer></script>
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <div id="app">
-        <my-colum-left :left="left"></my-colum-left>
-        <my-colum-right :right="right"></my-colum-right>
-        <my-img :img="img"></my-img>
+        <mynav :config="config"></mynav>
+        <myhome :config="config"></myhome>
+        <my-headphones :config="config"></my-headphones>
     </div>
 </body>
+
 </html>

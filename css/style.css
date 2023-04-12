@@ -5,6 +5,7 @@
 	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
 	list-style: none;
+	
 }
 :root{
 	--bg-color: #101113;
@@ -14,7 +15,7 @@
 	--h1-font: 6rem;
 	--p-font: 1rem;
 }
-/* body{
+body{
 	background: radial-gradient(50.53% 50.53% at 50.23% 49.47%, #414d59 0%, #1d2631 100%);
 	color: var(--text-color);
 }
@@ -65,7 +66,8 @@ header{
 }
 #menu-icon{
 	font-size: 35px;
-	color: var(--text-color);
+	color: red;
+	/* color: var(--text-color); */
 	z-index: 10001;
 	cursor: pointer;
 }
@@ -308,4 +310,4 @@ section{
 	:root{
 		--h1-font: 2.1rem;
 	}
-} */
+}
